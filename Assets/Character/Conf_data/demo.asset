@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 282a5647d48017346bb26c2825fc9bec, type: 3}
+  m_Name: demo
+  m_EditorClassIdentifier: 
+  NPCID: 0
+  DialogName: PilotChatDemo
+  DialogStatus: 0
+  dialoguedatas:
+  - charName: Poilt
+    NameColor: {r: 0.20392159, g: 0.20392159, b: 0.20392159, a: 1}
+    Dialogue: ........
+    DialogueVoice: {fileID: 0}
+    diaselect:
+    - next: 0
+      selectText: 
+    Event: TextEvent
+    end: 0
+  - charName: Poilt
+    NameColor: {r: 0.122641504, g: 0.11512104, b: 0.11512104, a: 1}
+    Dialogue: .....
+    DialogueVoice: {fileID: 0}
+    diaselect:
+    - next: 2
+      selectText: Hello
+    - next: 3
+      selectText: Hello
+    Event: 
+    end: 0
+  - charName: Poilt
+    NameColor: {r: 0.122641504, g: 0.11280704, b: 0.11280704, a: 1}
+    Dialogue: 2
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 1
+  - charName: Poilt
+    NameColor: {r: 0.122641504, g: 0.11280704, b: 0.11280704, a: 0.972549}
+    Dialogue: 3
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 1
+  QuestCompleted: 0

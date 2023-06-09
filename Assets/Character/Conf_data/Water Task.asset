@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 282a5647d48017346bb26c2825fc9bec, type: 3}
+  m_Name: Water Task
+  m_EditorClassIdentifier: 
+  NPCID: 0
+  DialogName: UNCLE JOE
+  DialogStatus: 1
+  dialoguedatas:
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: " With the amount of trash we humans left in the ocean, I\u2019m sure
+      there are some bottles washed up on the beach."
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: ' Go see if you can find 2 of the glasses bottles. Fill one with ocean
+      water and leave the other empty.'
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: "Once you get back just combine them next to the fire, one facing the
+      other and have the filled one close enough to the fire, but not too close as
+      the bottle will crack from high heat.\r"
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: ELON
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: Then what?
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: Then you just wait. The water will evaporate into the empty bottle.
+      But know that it will take a long time.
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: ELON
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: "Alright\u2026 I hope it doesn\u2019t take forever."
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 1
+  QuestCompleted: 0

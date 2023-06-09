@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 282a5647d48017346bb26c2825fc9bec, type: 3}
+  m_Name: Wake Up!
+  m_EditorClassIdentifier: 
+  NPCID: 0
+  DialogName: Uncle Joe!
+  DialogStatus: 0
+  dialoguedatas:
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: "Elon\u2026 is that really you? It\u2019s good to see you my boy \r"
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: ELON
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: What happened? Why are we here? Are you OK?
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: "The plane somehow lost power and the controls stopped while we were
+      in mid air, I tried to maneuver a safe landing but we were coming in too fast
+      and we crashed into this island. My leg is in so much pain\u2026 I don\u2019t
+      think I can walk.\r\n"
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: ELON
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: "There is so much blood. I\u2019m going to see if I can call for help\u2026"
+    DialogueVoice: {fileID: 0}
+    diaselect:
+    - next: 4
+      selectText: Take out the phone
+    Event: 
+    end: 0
+  - charName: ELON
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: "Oh no, it\u2019s damaged from the impact. It\u2019s not turning on!"
+    DialogueVoice: {fileID: 0}
+    diaselect:
+    - next: 5
+      selectText: What should I do?
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: "Looks like we are stuck here\u2026"
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: 'Check out the wreckage of the plane to see if you can get anything
+      that can help us. We might need some basic tools that might come in handy!
+
+'
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: ELON
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: "Ok\u2026ok\n"
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 1
+  QuestCompleted: 0

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 282a5647d48017346bb26c2825fc9bec, type: 3}
+  m_Name: Task 2
+  m_EditorClassIdentifier: 
+  NPCID: 0
+  DialogName: UNCLE JOE
+  DialogStatus: 1
+  dialoguedatas:
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: You need to make a wood pile first, and then a fireboard. Since you
+      already have an axe, you need to go chop down some trees and get about 11 wood
+      logs. Then collect 20 tree branches, and 5 rocks. You also need some dry grasses.
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: ' Once you get all of these, combine the wood logs, tree branches and
+      rock to build a wood pile.  '
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: 'For the fireboard, you first have to shave down a wood log with the
+      pocket knife that you have to make a wood board, make a V shaped cut into the
+      board. '
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: Combine the wood board with a wood stick and the dry grass you got.
+      Spin the spindle to apply friction. When the fire starts, transfer the fireboard
+      into the woodpile.
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: "Once you\u2019re done come back here. I will tell you what to do next.\r"
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 1
+  QuestCompleted: 1

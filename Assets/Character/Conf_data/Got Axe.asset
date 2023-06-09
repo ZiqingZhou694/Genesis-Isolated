@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 282a5647d48017346bb26c2825fc9bec, type: 3}
+  m_Name: Got Axe
+  m_EditorClassIdentifier: 
+  NPCID: 0
+  DialogName: I Found Something
+  DialogStatus: 0
+  dialoguedatas:
+  - charName: ELON
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: "Hey Uncle, I found a first aid kit, and an axe. Let me patch you up\u2026"
+    DialogueVoice: {fileID: 0}
+    diaselect:
+    - next: 1
+      selectText: Clean and wrap his wound
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: Thank you, Elon
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: ELON
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: "What do we do now Uncle? We can\u2019t call for help and it looks
+      like there is nothing around either."
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: 'The first thing you need to do is build a fire. It is especially important
+      that you do this before the sun is down. It will give us warmth and light to
+      get us through the night. You can also filter sea water into fresh water with
+      this fire, and cook any food. '
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: If we are lucky, someone might see the smoke and come help us!
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: ELON
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: "Okay\u2026 how do I do it?"
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: 'You need to make a wood pile first, and then a fireboard. Since you
+      already have an axe, you need to go chop down some trees and get about 11 wood
+      logs. Then collect 20 tree branches, and 5 rocks. You also need some dry grasses. '
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: 'Once you get all of these, combine the wood logs, tree branches and
+      rock to build a wood pile. '
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: For the fireboard, you first have to shave down a wood log with the
+      pocket knife that you have to make a wood board, make a V shaped cut into the
+      board.
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: Combine the wood board with a wood stick and the dry grass you got.
+      Spin the spindle to apply friction. When the fire starts, transfer the fireboard
+      into the woodpile.
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: ELON
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: "That is just so complicated! I have never done this before\u2026"
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: 'Just follow my instructions, you can do it. But be patient as starting
+      the fire will take a lot of work.
+
+'
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: "Once you\u2019re done come back here. I will tell you what to do next.\r"
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: ELON
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: "I\u2019ll try\u2026"
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 1
+  QuestCompleted: 0

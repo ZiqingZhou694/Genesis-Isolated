@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 282a5647d48017346bb26c2825fc9bec, type: 3}
+  m_Name: task 1
+  m_EditorClassIdentifier: 
+  NPCID: 0
+  DialogName: Uncle Joe
+  DialogStatus: 1
+  dialoguedatas:
+  - charName: UNCLE JOE
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: Check out the wreckage of the plane to see if you can get anything
+      that can help us. We might need some basic tools that might come in handy!
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 0
+  - charName: ELON
+    NameColor: {r: 0, g: 0, b: 0, a: 1}
+    Dialogue: "Ok\u2026ok"
+    DialogueVoice: {fileID: 0}
+    diaselect: []
+    Event: 
+    end: 1
+  QuestCompleted: 0
