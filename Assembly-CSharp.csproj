@@ -1,0 +1,1555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{d52f46a2-889b-1dc2-40f5-7c61875894a2}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
+    <DefineConstants>UNITY_2021_3_19;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;MEET_AND_TALK;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\WaterTimer.cs" />
+     <Compile Include="Assets\Scripts\Inventory.cs" />
+     <Compile Include="Assets\Scripts\HealthBarScript.cs" />
+     <Compile Include="Assets\Scripts\TechDepBarScript.cs" />
+     <Compile Include="Assets\Character\DialogueItem.cs" />
+     <Compile Include="Assets\Visual Design Cafe\Nature Renderer\Runtime\NatureRenderer.SRP.cs" />
+     <Compile Include="Assets\Character\Dialoglogic.cs" />
+     <Compile Include="Assets\Character\Con_DialogData.cs" />
+     <Compile Include="Assets\KriptoFX\WaterSystem\Demo\Scripts\AudioStartTime.cs" />
+     <Compile Include="Assets\KriptoFX\WaterSystem\Demo\Resources\UI\DemoGUI.cs" />
+     <Compile Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts\UseReferenceCamera.cs" />
+     <Compile Include="Assets\PalmTreePack\Scripts\Offer\ALIyerEdonAssets_Lighting.cs" />
+     <Compile Include="Assets\Scripts\UI_Inventory.cs" />
+     <Compile Include="Assets\Scripts\EyePointer.cs" />
+     <Compile Include="Assets\Scripts\CameraManager.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts\RenderPipelineLighting.cs" />
+     <Compile Include="Assets\Scripts\HungerBarScript.cs" />
+     <Compile Include="Assets\Scripts\WoodpileCombine.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Scripts\MoveObjectWithRayCast.cs" />
+     <Compile Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts\OpenWebsiteButton.cs" />
+     <Compile Include="Assets\KriptoFX\WaterSystem\Demo\Scripts\GlobalFlock.cs" />
+     <Compile Include="Assets\KriptoFX\WaterSystem\Demo\Scripts\ShipDemo.cs" />
+     <Compile Include="Assets\PalmTreePack\Scripts\Offer\LightingTools_Offer.cs" />
+     <Compile Include="Assets\PalmTreePack\Scripts\LB_CameraMove.cs" />
+     <Compile Include="Assets\Scripts\ItemAssets.cs" />
+     <Compile Include="Assets\Character\NPCController.cs" />
+     <Compile Include="Assets\Scripts\CollectableItem.cs" />
+     <Compile Include="Assets\Scripts\InventoryInit.cs" />
+     <Compile Include="Assets\Scripts\QuestGiver.cs" />
+     <Compile Include="Assets\Scripts\PlayerLogic.cs" />
+     <Compile Include="Assets\KriptoFX\WaterSystem\Demo\Scripts\SkyTimeline.cs" />
+     <Compile Include="Assets\Scripts\Tree.cs" />
+     <Compile Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts\CompileShaders.cs" />
+     <Compile Include="Assets\Character\ButtonManager.cs" />
+     <Compile Include="Assets\Scripts\PlayerLook.cs" />
+     <Compile Include="Assets\KriptoFX\WaterSystem\Demo\Resources\UI\KWS_CheckDemoSettings.cs" />
+     <Compile Include="Assets\Character\DialogueManager.cs" />
+     <Compile Include="Assets\Scripts\ThirstBarScript.cs" />
+     <Compile Include="Assets\Scripts\TempMove.cs" />
+     <Compile Include="Assets\Scripts\IntroVideoScript.cs" />
+     <Compile Include="Assets\KriptoFX\WaterSystem\Demo\Scripts\Fish.cs" />
+     <Compile Include="Assets\Scripts\MenuManager.cs" />
+     <Compile Include="Assets\Scripts\PlayerCollectOnCollider.cs" />
+     <Compile Include="Assets\KriptoFX\WaterSystem\Demo\Resources\UI\KWS_DemoUIElement.cs" />
+     <Compile Include="Assets\Scripts\QuestGoal.cs" />
+     <Compile Include="Assets\Scripts\FireProgressScript.cs" />
+     <Compile Include="Assets\Character\QuestManager.cs" />
+     <Folder Include="Assets" />
+     <Folder Include="Assets\Polygon-Lite Survival Collection\Scenes\Demonstration" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock1\Textures" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Flowers" />
+     <Folder Include="Assets\PalmTreePack\Models\Palm_Style_Old\Palm2\Materials" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\Meshes\Miscellaneous" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Rocks\Rock_Granite_reFto" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Shaders\Templates" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\DiffusionProfiles" />
+     <None Include="Assets\TerrainSampleAssets\ThirdPartyNotices.txt" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Scenes\Pool" />
+     <Folder Include="Assets\Rock Package\Texture" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <Folder Include="Assets\TerrainSampleAssets\Textures\Terrain" />
+     <None Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Shaders\StandardScatterSpecularSurface.shader" />
+     <Folder Include="Assets\Vefects\Scene\Scenes" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Phys_Objects\Pinecones_phys" />
+     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\GLES3.hlsl" />
+     <Folder Include="Assets\Visual Design Cafe\Documentation" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\FFT\ComputeFFT_GPU.compute" />
+     <Folder Include="Assets\Food Pack Mixed\Materials" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\GraphicsPass\KWS_DynamicWaves.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Scenes\River" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\df59ae1efa4e41644a9729cc637bdf5d" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Models\Flags" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Natural\Axes\Wildlife axe" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Rocks\TilingSurfaces" />
+     <Folder Include="Assets\TerrainSampleAssets\ShaderGraphs\CustomFunctions" />
+     <Folder Include="Assets\TextMesh Pro\Sprites" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Fishes\bluegill" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\FlowMaps\6276c7293ca47654a971c78b43747db5\FlowMapData.txt" />
+     <Folder Include="Assets\Visual Design Cafe\ShaderX\Templates" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\Dead_Plant_03" />
+     <Folder Include="Assets\StreamingAssets" />
+     <Folder Include="Assets\Icons" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\CommandPass\KWS_DrawToDepth.shader" />
+     <Folder Include="Assets\PalmTreePack\Scripts" />
+     <Folder Include="Assets\Vefects\VFX\Free Fire\Textures" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Pines\PineDead_001\Materials" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\Scenes" />
+     <Folder Include="Assets\TerrainSampleAssets\ShaderGraphs" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Scenes" />
+     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\Vulkan.hlsl" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\Ferns" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Trees" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\KWS_CommonHelpers.cginc" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Shaders\Common" />
+     <None Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Third-Party Notices.txt" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\Textures" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Natural\Wood" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\d6c7c7778a8bec54893ada9bb77979ea" />
+     <Folder Include="Assets\TerrainSampleAssets\Models" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\BushTwig_01" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer\Editor Resources" />
+     <Folder Include="Assets\PalmTreePack\Scripts\Offer" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Illustrated\Wood" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Pines\Pine_004_new" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\CausticMaps\74e75fc51de5773448e4fca07d21c2ff" />
+     <Folder Include="Assets\Boeng C-17" />
+     <Folder Include="Assets\Polygon-Lite Survival Collection\Demo_Day_Profiles" />
+     <None Include="Assets\Visual Design Cafe\Nature Shaders\Common\Nodes\Integrations\Nature Renderer.cginc" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood\Wood_Branch_pjxuR" />
+     <Folder Include="Assets\PalmTreePack\Textures\Ground" />
+     <Folder Include="Assets\Polygon-Lite Survival Collection\Scenes" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Scenes\NightCity" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Shaders\Code" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Stealth\Knives" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Plants\Plant_Perennials\Materials" />
+     <None Include="Assets\Visual Design Cafe\Nature Renderer\Resources\Nature Renderer Batcher.compute" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Models\Terrain\Cliffs" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\dbce1722fd43ec040a880a467630b3cf" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <Folder Include="Assets\TerrainSampleAssets\Textures\Details" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Cliffs" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Objects\wood_root\Models" />
+     <None Include="Assets\Vefects\VFX\Free Fire\Shaders\SH_Vefects_VFX_Fire_Flames.shader" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\FlowMaps\8f9a2309dd30e2247801008e24437724" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\PlatformSpecific\KWS_Water.shader" />
+     <Folder Include="Assets\PalmTreePack\Scene\Sample_Palm_Pack" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Hive_Tish\Materials" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\PlatformSpecific\KWS_BlurBilateral.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock0\Models" />
+     <Folder Include="Assets\Visual Design Cafe\Package Manager" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Natural\Axes\Hunters axe" />
+     <Folder Include="Assets\PalmTreePack\Textures\Sky" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\FFT\ComputeFFT_Height.compute" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Rocks\Rock_Sandstone_plras\Materials" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\Meshes\Axes\Wildlife axe" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Textures\Buildings" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\64da74735c1b2424d9a97592ffde9816\KW_ShorelineWavesData.txt" />
+     <Folder Include="Assets\Tree 1_Textures" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\PlatformSpecific\KWS_MaskDepthNormal.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Surfaces\Terrain_Rocks" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Pool" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Pines\Pine_005" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood\Wood_Log_qdhxa\Materials" />
+     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\XBoxOne.hlsl" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\a79f9c4be961c40418d04147f9070b27\KW_ShorelineWavesData.txt" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Settings" />
+     <Folder Include="Assets\PalmTreePack\Prefabs\1" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Models\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Ground" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Illustrated" />
+     <Folder Include="Assets\PalmTreePack\Textures\Palm\Trunk\4" />
+     <Folder Include="Assets\PalmTreePack\Models\Palm_Style_Old\Palm1\Materials" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Shaders\Plugins" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\df59ae1efa4e41644a9729cc637bdf5d\KW_ShorelineWavesData.txt" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Natural" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\Juniper_Bush_01" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\FlowMaps\6276c7293ca47654a971c78b43747db5" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock4\Textures" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood\Wood_Branch_pjxuR\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\WaterResources\WaterSystemData" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Decals" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Cliffs\Cave\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Plants\GrassGreen_qheqG2" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Models\Flags\Materials" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\KWS_WaterHelpers.cginc" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Objects\wood_root" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\PlatformSpecific\KWS_VolumetricLighting.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Cliffs\RockSlussen_01\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock2\Prefabs" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\GraphicsPass" />
+     <None Include="Assets\PalmTreePack\Shaders\Readme.txt" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Pines\Pine_006\Materials" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Grass" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Shaders" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Phys_Objects\Pinecones_phys\Materials" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Stealth\Axes\Wildlife axe" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Plants\Bush_b" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer\Runtime" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\PlatformSpecific\KWS_WaterTesselated.shader" />
+     <Folder Include="Assets\PalmTreePack\Scene" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\Docs" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Rocks\Rock_Sandstone_plras" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock1\Models" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Ground\Source Assets" />
+     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\Metal.hlsl" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Pines\PineDead_001" />
+     <Folder Include="Assets\Tree_Textures" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood\Wood_Root_rkswd\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Tree_Dead_001" />
+     <Folder Include="Assets\TextMesh Pro\Resources" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood\Wood_Log_M_qdtdP" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Rocks\Rock_Granite_rcCwC" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock3\Textures" />
+     <Folder Include="Assets\Visual Design Cafe\ShaderX\Templates\Lit" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Pines\Pine_002_new" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Vegetation\Low" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Flowers\Source Assets" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Surfaces" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Fishes\bluegill\textures" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\RedBush" />
+     <Folder Include="Assets\PalmTreePack\Prefabs\Old" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Pines\Pine_007\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Terrain\Materials" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\Meshes\Axes\Carpenters axe" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Vegetation" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Rocks\Rock_Granite_rgAsy" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\FluidsSimulation\ee1363fd935225047acd01514c408390" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\PlatformSpecific\Other" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Models\Terrain\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\Clover_01" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Textures\Decals" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock1" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\Dead_Grass_02\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Generic_Trunk\tree_013\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock3\Models" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Pool\Textures" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Objects\wood_root\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock6\Prefabs" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\WindLitShaderGraph\UtilityGraphs" />
+     <Folder Include="Assets\Visual Design Cafe\Packages" />
+     <Folder Include="Assets\_TerrainAutoUpgrade" />
+     <Folder Include="Assets\Visual Design Cafe\ShaderX\Plugins" />
+     <Folder Include="Assets\Boeng C-17\Materials\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Terrain" />
+     <None Include="Assets\Visual Design Cafe\Nature Renderer\Resources\Nature Renderer VR.compute" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Floating objects" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Generic_Trunk" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock6" />
+     <Folder Include="Assets\PalmTreePack\Shaders" />
+     <Folder Include="Assets\Food Pack Mixed" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Scenes\Beach Sunset" />
+     <None Include="Assets\KriptoFX\WaterSystem\README.txt" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer\Resources\Nature Renderer Templates" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Plants\Bush_qilgY2\Materials" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\PlatformSpecific\KWS_PlatformSpecificHelpers.cginc" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Cliffs\Yosemite_01\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\UberPrefabs" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\ab8e9b0df02f0474ab39e64c7cf6c6f9\KW_ShorelineWavesData.txt" />
+     <Folder Include="Assets\KriptoFX\WaterSystem" />
+     <Folder Include="Assets\PalmTreePack\Textures" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\DetailMap" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock0\Textures" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Vegetation\Bushes" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Rocks\Source Assets" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Plants\Plant_Perennials" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\Meshes\Axes" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Pines" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\ab8e9b0df02f0474ab39e64c7cf6c6f9\KW_Shoreline_DepthData.txt" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Pines\Pine_006" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Terrain\TerrainData" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock4\Prefabs" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\Shoreline\KWS_Shoreline_Common.cginc" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\FFT\ComputeNormal.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock2" />
+     <Folder Include="Assets\TextMesh Pro" />
+     <Folder Include="Assets\TerrainSampleAssets\TerrainBrushes" />
+     <Folder Include="Assets\Food Pack Mixed\Prefabs" />
+     <Folder Include="Assets\PalmTreePack\Textures\Palm\Trunk\1" />
+     <None Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Shaders\Code\AtmosphericScattering.cginc" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\PlatformSpecific\Other\KW_WaterHoleMask.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\Shoreline" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\Meshes\Wood" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\KWS_WaterFragPass.cginc" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\FlowMaps" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood\Wood_Log_rfixH\Materials" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\CausticMaps\a484316f862f4a34d884dfe1269cc2cf" />
+     <Folder Include="Assets\PalmTreePack\Models\Palm2\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood\Wood_Root_rkswd" />
+     <Folder Include="Assets\ArtisticMechanics" />
+     <Folder Include="Assets\Animations" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Audio" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\PineGroundScatter_01" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\57d73174664ea344781d3b82e8dfd8b5\KW_Shoreline_DepthData.txt" />
+     <Folder Include="Assets\PalmTreePack\Textures\Palm\Trunk\1\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\Detail" />
+     <None Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Shaders\StandardMaskyMixScatterSpecularSurface.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Objects" />
+     <Folder Include="Assets\Prefabs" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\PlatformSpecific\KWS_FFT_ToHeightMap.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Scenes\Beach Rocky" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\FluidsSimulation" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Trees\Source Assets\Materials" />
+     <Folder Include="Assets\TerrainSampleAssets\Prefabs" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Fishes\Shark(sketchfab Ravenloop)\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock3\Materials" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\ab8e9b0df02f0474ab39e64c7cf6c6f9" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Scenes\Vilage River Flow" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Stealth\Axes\Carpenters axe" />
+     <None Include="Assets\Visual Design Cafe\Nature Renderer\Resources\Nature Renderer Instancing.compute" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Fishes\bluegill\source" />
+     <Folder Include="Assets\Scenes\SampleScene" />
+     <Folder Include="Assets\TerrainSampleAssets" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Ground\Roots\Materials" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Natural\Miscellaneous" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Grass\Source Assets" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Prefabs" />
+     <Folder Include="Assets\Polygon-Lite Survival Collection\Prefabs" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood\Wood_Log_rfgxx" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer\Resources" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Objects\wood_root\Textures" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Floating objects\Galleon (sketchfab Harry_L)" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Natural\Axes" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Cliffs\SmallCliff_01\Materials" />
+     <Folder Include="Assets\Vefects\Scene\Materials" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Illustrated\Miscellaneous" />
+     <Folder Include="Assets\Visual Design Cafe\ShaderX\Templates\Common" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\FFT\Spectrum_GPU.compute" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock2\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Surfaces\Terrain_Ground" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\PlatformSpecific\KWS_CausticDecal.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock0" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Cliffs\RockSlussen_01" />
+     <None Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Shaders\UnityStandardSurface.cginc" />
+     <Folder Include="Assets\HDRPDefaultResources" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Materials" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Trees\Source Assets" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\df59ae1efa4e41644a9729cc637bdf5d\KW_Shoreline_DepthData.txt" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Rocks\Rock_Granite_rgAsy\Materials" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\57d73174664ea344781d3b82e8dfd8b5\KW_ShorelineWavesData.txt" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\dbce1722fd43ec040a880a467630b3cf\KW_Shoreline_DepthData.txt" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer\Plugins" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Plants\Bush_qilgP2" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\KWS_WaterVertPass.cginc" />
+     <None Include="Assets\Vefects\VFX\Free Fire\Shaders\SH_Vefects_VFX_Heat_Haze.shader" />
+     <Folder Include="Assets\Vefects" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Timeline" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\MeadowGrass_01\Materials" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Stealth\Axes\Hunters axe" />
+     <Folder Include="Assets\PalmTreePack\Textures\Palm\Trunk\3\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Rocks\Rock_Granite_reFto\Materials" />
+     <Folder Include="Assets\Scripts" />
+     <Folder Include="Assets\KriptoFX" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\PlatformSpecific\KWS_Underwater.shader" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Illustrated\Axes\Wildlife axe" />
+     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\GLCore.hlsl" />
+     <Folder Include="Assets\vertexfield\forest" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <Folder Include="Assets\Vefects\VFX\Free Fire\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Phys_Objects\sticks_phys\Materials" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Shaders\Shaders" />
+     <Folder Include="Assets\PalmTreePack\Textures\Ground\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Generic_Trunk\tree_013" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Surfaces\Terrain_Grass" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\KWS_Tessellation.cginc" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Objects\wood_root\Prefabs" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Realistic Demo" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Natural\Knives" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Rocks\Rock_Granite_rcCwC\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel" />
+     <Folder Include="Assets\PalmTreePack\Models\Palm_Style_Old\Palm2" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Floating objects\Galleon (sketchfab Harry_L)\textures" />
+     <Folder Include="Assets\Vefects\VFX\Free Fire\Settings" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Generic_Stump\Stump_04" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Textures" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Animations" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\TerrainTextures\FloorSticks_olsgr" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Cliffs\Yosemite_01" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\CommandPass" />
+     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\Switch.hlsl" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\64da74735c1b2424d9a97592ffde9816\KW_Shoreline_DepthData.txt" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Hive_Tish" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\GLES2.hlsl" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\Materials" />
+     <Folder Include="Assets\Rock Package\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Plants" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Cliffs\Detail" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\KWS_WaterPassHelpers.cginc" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Scripts" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\KWS_WaterVariables.cginc" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Shaders\Conversion Profiles" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\Meshes" />
+     <Folder Include="Assets\Vefects\VFX\Free Fire\Lights" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Stealth\Miscellaneous" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Terrains" />
+     <Folder Include="Assets\PalmTreePack\Prefabs\2" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Cliffs\Rock_06\Materials" />
+     <Folder Include="Assets\PalmTreePack\Models\Palm_Style_Old" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock5\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Audio" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock6\Textures" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock5\Textures" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Cliffs\FlatRock_01\Materials" />
+     <Folder Include="Assets\PalmTreePack\Models" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Models\Terrain\Cliffs\VillageCliffs\Materials" />
+     <Folder Include="Assets\vertexfield" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Ground" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\GraphicsPass\KWS_FluidSimulation.shader" />
+     <None Include="Assets\Vefects\VFX\Free Fire\Shaders\SH_Vefects_VFX_Particles_Erosion.shader" />
+     <Folder Include="Assets\PalmTreePack\Models\Palm_Style_Old\Palm1" />
+     <Folder Include="Assets\PalmTreePack\Textures\Palm\Trunk\4\Materials" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Illustrated\Knives" />
+     <Folder Include="Assets\Alstra Infinite\Tool Set - PolyPack\Texture" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Textures\Terrain" />
+     <Folder Include="Assets\PalmTreePack\Textures\Props\Tile\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Ground\Roots" />
+     <Folder Include="Assets\Rock Package" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\RedBush\Materials" />
+     <Folder Include="Assets\Character" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\Shoreline\KWS_FoamParticles_Core.cginc" />
+     <None Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Shaders\UnityPBSLighting.cginc" />
+     <Folder Include="Assets\TextMesh Pro\Shaders" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\PlatformSpecific\KWS_SSR.compute" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood\Wood_Branch_S_pcyeE" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood\Wood_Log_rhfdj" />
+     <Folder Include="Assets\Alstra Infinite\Tool Set - PolyPack" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\d6c7c7778a8bec54893ada9bb77979ea\KW_ShorelineWavesData.txt" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Generic_Trunk\wood02" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\GreenBush\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\BroadleafShrub_01" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Effects" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\a79f9c4be961c40418d04147f9070b27\KW_Shoreline_DepthData.txt" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\PlatformSpecific" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood\Wood_Log_rfixH" />
+     <Folder Include="Assets\TerrainSampleAssets\Materials" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Shaders" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Models\Terrain\MountainPeaks" />
+     <Folder Include="Assets\Rock Package\Mesh" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock1\Prefabs" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
+     <Folder Include="Assets\TerrainSampleAssets\Settings" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\7dc79a8b6fcabad499bd01cbaaa63a21\KW_ShorelineWavesData.txt" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Backdrop" />
+     <None Include="Assets\PalmTreePack\Doc\QuickStart.txt" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\CommandPass\KWS_AnisotropicFiltering.shader" />
+     <Folder Include="Assets\TextMesh Pro\Fonts" />
+     <Folder Include="Assets\Vefects\VFX\Free Fire\Shaders" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock4" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Generic_Stump\Stump_03\Materials" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\69da5e57d7fe2654fb2c3863a1558cfd" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\69da5e57d7fe2654fb2c3863a1558cfd\KW_ShorelineWavesData.txt" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\UI" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\DeadStump_02\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Pines\Pine_004_new\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Plants\GrassGreen_qheqG2\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources" />
+     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\D3D11.hlsl" />
+     <Folder Include="Assets\Vefects\VFX\Free Fire" />
+     <Folder Include="Assets\PalmTreePack" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <Folder Include="Assets\PalmTreePack\Textures\Palm\Trunk\2\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Pines\Pine_002_new\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Models\Buildings\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Generic_Stump\Stump_03" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\Meshes\Knives" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Cliffs\Rock_31" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Cliffs\Cave" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock2\Textures" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\GreenBush" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Models\Terrain" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\Meshes\Axes\Hunters axe" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock3\Prefabs" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Vegetation\Low\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Flowering Plants" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer\Shader Graph" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Generic_Stump" />
+     <Folder Include="Assets\UI Prefabs" />
+     <Folder Include="Assets\Terrain" />
+     <Folder Include="Assets\Alstra Infinite" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\7dc79a8b6fcabad499bd01cbaaa63a21\KW_Shoreline_DepthData.txt" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock3" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\Ferns\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Backdrop\Materials" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\57d73174664ea344781d3b82e8dfd8b5" />
+     <Folder Include="Assets\vertexfield\forest\textures" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Shaders\Resources" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Timelimes" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\Meshes\Miscellaneous\Update_01" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Cliffs\SmallCliff_01" />
+     <Folder Include="Assets\vertexfield\forest\models" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Scenes\Vilage Sunset" />
+     <Folder Include="Assets\PalmTreePack\Textures\Props" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\FFT" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\CommandPass\KWS_Underwater_Common.cginc" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\WaterResources\Textures\Resources" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\PlatformSpecific\KWS_FoamParticles.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Scenes\Beach Sand" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\UnityHDRI" />
+     <Folder Include="Assets\vertexfield\forest\demo_scene" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Stealth\Axes" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\FlowMaps\ee1363fd935225047acd01514c408390" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Models\Terrain\MountainPeaks\Materials" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Shaders\Common\Nodes\Integrations" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\CommandPass\KWS_BlurBilateral_Common.cginc" />
+     <Folder Include="Assets\TerrainSampleAssets\Textures" />
+     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\PSSL.hlsl" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\dbce1722fd43ec040a880a467630b3cf\KW_ShorelineWavesData.txt" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Plants\Bush_qilgP2\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\WaterResources\Textures" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\WaterResources" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Models\Terrain\Cliffs\VillageCliffs" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\CausticMaps\a79f9c4be961c40418d04147f9070b27" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock0\Prefabs" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Hive_Tish\Textures" />
+     <Folder Include="Assets\PalmTreePack\Textures\Palm\Trunk" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\7dc79a8b6fcabad499bd01cbaaa63a21" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Pines\Pine_007" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\PosteffectsProfiles" />
+     <Folder Include="Assets\Vefects\VFX\Free Fire\HDRPDefaultResources" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Skies" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Plants\Bush_qilgY2" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Models\Buildings\Towers" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Illustrated\Axes" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\GenericMaterials" />
+     <Folder Include="Assets\Visual Design Cafe" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Grass" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock2\Models" />
+     <Folder Include="Assets\TerrainSampleAssets\Textures\Heightmaps" />
+     <Folder Include="Assets\Food Pack Mixed\Meshes" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Fishes\Shark(sketchfab Ravenloop)" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\PlatformSpecific\KWS_CopyDepthTexture.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Phys_Objects" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\TerrainTextures\Grass_Dried_omgra0" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Pool\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\Dead_Plant_03\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Ground\Sticks_debris\Materials" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Shaders\Integrations" />
+     <Folder Include="Assets\Vefects\Scene\Meshes" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood\Wood_Log_rhfdj\Materials" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\FlowMaps\ee1363fd935225047acd01514c408390\FlowMapData.txt" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Cliffs\Rock_31\Materials" />
+     <Folder Include="Assets\PalmTreePack\Models\Palm1\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\TerrainTextures\ScatteredStones_rmsih0p" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\FlowMaps\8f9a2309dd30e2247801008e24437724\FlowMapData.txt" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood\Wood_Branch_S_pcyeE\Materials" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Tree_Dead_001\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Generic_Trunk\tree_010\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Vegetation\Bushes\Materials" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\CommandPass\KWS_CausticDecal_Common.cginc" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Scenes\Cave" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Terrain" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Phys_Objects\sticks_phys" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\CausticMaps\147877a0cef75bc479228a0f823b7198" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Stealth\Wood" />
+     <Folder Include="Assets\PalmTreePack\Textures\Props\Tile" />
+     <Folder Include="Assets\Polygon-Lite Survival Collection\Materials" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Illustrated\Axes\Hunters axe" />
+     <Folder Include="Assets\Alstra Infinite\Tool Set - PolyPack\Prefabs" />
+     <None Include="Assets\PalmTreePack\Models\Palm_Style_Old\Readme.txt" />
+     <Folder Include="Assets\Boeng C-17\Materials" />
+     <Folder Include="Assets\Alstra Infinite\Tool Set - PolyPack\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\DeadStump_02" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Generic_Trunk\tree_010" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\d6c7c7778a8bec54893ada9bb77979ea\KW_Shoreline_DepthData.txt" />
+     <Folder Include="Assets\PalmTreePack\Doc" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\TerrainTextures" />
+     <Folder Include="Assets\Vefects\Scene" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Models\Buildings\Towers\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\Juniper_Bush_01\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees" />
+     <Folder Include="Assets\vertexfield\forest\prefabs" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\CausticMaps" />
+     <Folder Include="Assets\Character\textures" />
+     <Folder Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms" />
+     <Folder Include="Assets\PalmTreePack\Textures\Palm\Trunk\3" />
+     <Folder Include="Assets\Polygon-Lite Survival Collection\Models" />
+     <Folder Include="Assets\PalmTreePack\Textures\Palm\Leafs" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\64da74735c1b2424d9a97592ffde9816" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <Folder Include="Assets\TerrainSampleAssets\TerrainLayers" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\TerrainTextures\Grass_pe1jvwp0" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock0\Materials" />
+     <Folder Include="Assets\PalmTreePack\Models\Palm1" />
+     <Folder Include="Assets\Alstra Infinite\Tool Set - PolyPack\Models" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\PlatformSpecific\KWS_FoamParticlesShadow.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\Dead_Grass_02" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\CommandPass\KWS_BlurGaussian.shader" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Rocks" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\BroadleafShrub_01\Materials" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\a79f9c4be961c40418d04147f9070b27" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\UnityHDRI\Gareoult" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock5" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\FlowMaps\ee1363fd935225047acd01514c408390\KW_FluidsDepthData.txt" />
+     <Folder Include="Assets\TerrainSampleAssets\ShaderGraphs\Subgraphs" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Illustrated\Axes\Carpenters axe" />
+     <Folder Include="Assets\Polygon-Lite Survival Collection\Textures" />
+     <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock4\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Fishes" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\MeadowGrass_01" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock6\Models" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Cliffs\FlatRock_01" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock1\Materials" />
+     <Folder Include="Assets\PalmTreePack\Textures\Palm" />
+     <Folder Include="Assets\TextMesh Pro\Documentation" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock5\Models" />
+     <None Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps\69da5e57d7fe2654fb2c3863a1558cfd\KW_Shoreline_DepthData.txt" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\TerrainLayers" />
+     <Folder Include="Assets\Food Pack Mixed\Scenes" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Pines\Pine_005\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood\Wood_Log_M_qdtdP\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Scenes\BookOfTheDeadDemo" />
+     <Folder Include="Assets\Visual Design Cafe\ShaderX\Resources" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Vegetation\Trees\Generic_Stump\Stump_04\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Models" />
+     <Folder Include="Assets\Vefects\Scene\Textures" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\Clover_01\Materials" />
+     <Folder Include="Assets\vertexfield\forest\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\WindLitShaderGraph" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Textures\Bridge" />
+     <Folder Include="Assets\PalmTreePack\Scene\Settings" />
+     <Folder Include="Assets\Vefects\Audio" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock4\Models" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <Folder Include="Assets\Rock Package\Prefabs" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Rocks\TilingSurfaces\Q_tiledRock_01" />
+     <None Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\ThirdPartyNotices.txt" />
+     <Folder Include="Assets\Rock Package\Scene" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Plants\Bush_b\Materials" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\ShorelineMaps" />
+     <Folder Include="Assets\Food Pack Mixed\Textures" />
+     <Folder Include="Assets\Vefects\VFX" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\CommandPass\KWS_Caustic_Pass.shader" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\CommandPass\KWS_SSR_Common.cginc" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Flowering Plants\Source Assets" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Ground\Sticks_debris" />
+     <None Include="Assets\KriptoFX\WaterSystem\WaterResources\Shaders\Resources\Common\FFT\KWS_FFT_ToHeightMap_Core.cginc" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood\Wood_Log_rfgxx\Materials" />
+     <Folder Include="Assets\Vefects\VFX\Free Fire\Particles" />
+     <Folder Include="Assets\StreamingAssets\WaterSystemData\CausticMaps\d6c7c7778a8bec54893ada9bb77979ea" />
+     <None Include="Assets\TerrainSampleAssets\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
+     <Folder Include="Assets\PalmTreePack\Prefabs" />
+     <Folder Include="Assets\PalmTreePack\Textures\Props\Cement" />
+     <Folder Include="Assets\Visual Design Cafe\ShaderX" />
+     <Folder Include="Assets\Polygon-Lite Survival Collection" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Stealth" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\PineGroundScatter_01\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Megascans\Wood\Wood_Log_qdhxa" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Surfaces\Terrain_Sand" />
+     <Folder Include="Assets\PalmTreePack\Models\Palm2" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock6\Materials" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
+     <Folder Include="Assets\PalmTreePack\Textures\Palm\Trunk\2" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Shaders\Common\Nodes" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead" />
+     <Folder Include="Assets\ArtisticMechanics\Bush Craft Starter Pack\PreFabs\Natural\Axes\Carpenters axe" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\_ExternalContent\Quixel\Forest-quixel\BushTwig_01\Materials" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\BookOfTheDead\Art\Environment\Cliffs\Rock_06" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer\Shader Includes" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art" />
+     <Folder Include="Assets\Character\Conf_data" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\VilageResources\Models\Buildings" />
+     <Folder Include="Assets\KriptoFX\WaterSystem\Demo\Resources\Rocks\rock5\Prefabs" />
+     <Folder Include="Assets\Alstra Infinite\Tool Set - PolyPack\Scene" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Rocks" />
+     <Reference Include="UnityEngine">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AIModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ARModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AccessibilityModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AndroidJNIModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AnimationModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AssetBundleModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AudioModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClothModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterInputModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterRendererModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CrashReportingModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DSPGraphModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DirectorModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GIModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GameCenterModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GridModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.HotReloadModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.IMGUIModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ImageConversionModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputLegacyModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.JSONSerializeModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.LocalizationModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ParticleSystemModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PerformanceReportingModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PhysicsModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Physics2DModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ProfilerModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ScreenCaptureModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SharedInternalsModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteMaskModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteShapeModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.StreamingModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubstanceModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubsystemsModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TLSModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainPhysicsModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreFontEngineModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreTextEngineModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextRenderingModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TilemapModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsNativeModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UNETModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UmbraModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityConnectModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityCurlModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityTestProtocolModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VFXModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VRModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VehiclesModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VideoModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VirtualTexturingModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.WindModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.XRModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.CoreModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DeviceSimulatorModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DiagnosticsModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.GraphViewModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.PackageManagerUIModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.QuickSearchModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.SceneTemplateModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreFontEngineModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreTextEngineModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIBuilderModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsSamplesModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIServiceModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UnityConnectModule">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="VisualDesignCafe.Rendering.Nature">
+     <HintPath>D:\Genesis\Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Nature.dll</HintPath>
+     </Reference>
+     <Reference Include="VisualDesignCafe.Packages">
+     <HintPath>D:\Genesis\Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Packages.dll</HintPath>
+     </Reference>
+     <Reference Include="VisualDesignCafe.Editor.Events">
+     <HintPath>D:\Genesis\Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Events.dll</HintPath>
+     </Reference>
+     <Reference Include="VisualDesignCafe.Rendering.Instancing.Editor">
+     <HintPath>D:\Genesis\Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Instancing.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="VisualDesignCafe.ShaderX">
+     <HintPath>D:\Genesis\Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.ShaderX.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Mdb">
+     <HintPath>D:\Genesis\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+     </Reference>
+     <Reference Include="VisualDesignCafe.Nature">
+     <HintPath>D:\Genesis\Assets\Visual Design Cafe\Nature Shaders\Plugins\VisualDesignCafe.Nature.dll</HintPath>
+     </Reference>
+     <Reference Include="VisualDesignCafe.Memory">
+     <HintPath>D:\Genesis\Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Memory.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Pdb">
+     <HintPath>D:\Genesis\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil">
+     <HintPath>D:\Genesis\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+     </Reference>
+     <Reference Include="VisualDesignCafe.Editor.PackageManager">
+     <HintPath>D:\Genesis\Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.PackageManager.dll</HintPath>
+     </Reference>
+     <Reference Include="VisualDesignCafe.ShaderX.Editor">
+     <HintPath>D:\Genesis\Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.ShaderX.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="VisualDesignCafe.Rendering.Instancing">
+     <HintPath>D:\Genesis\Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Instancing.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>D:\Genesis\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Rocks">
+     <HintPath>D:\Genesis\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+     </Reference>
+     <Reference Include="VisualDesignCafe.Editor.Community">
+     <HintPath>D:\Genesis\Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Community.dll</HintPath>
+     </Reference>
+     <Reference Include="VisualDesignCafe.Editor.ShaderX">
+     <HintPath>D:\Genesis\Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.Editor.ShaderX.dll</HintPath>
+     </Reference>
+     <Reference Include="ReportGeneratorMerged">
+     <HintPath>D:\Genesis\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     </Reference>
+     <Reference Include="VisualDesignCafe.Rendering.Nature.Editor">
+     <HintPath>D:\Genesis\Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Nature.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="VisualDesignCafe.Nature.Editor">
+     <HintPath>D:\Genesis\Assets\Visual Design Cafe\Nature Shaders\Plugins\VisualDesignCafe.Nature.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="VisualDesignCafe.Editor.Web">
+     <HintPath>D:\Genesis\Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="netstandard">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.Win32.Primitives">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.AppContext">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Buffers">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Concurrent">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.NonGeneric">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Specialized">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.EventBasedAsync">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Primitives">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.TypeConverter">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Console">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data.Common">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Contracts">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Debug">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.FileVersionInfo">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Process">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.StackTrace">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TextWriterTraceListener">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tools">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TraceSource">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tracing">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing.Primitives">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Dynamic.Runtime">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Calendars">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Extensions">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.ZipFile">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.DriveInfo">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Primitives">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Watcher">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.IsolatedStorage">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.MemoryMappedFiles">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Pipes">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.UnmanagedMemoryStream">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Expressions">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Parallel">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Queryable">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Memory">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Http">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NameResolution">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NetworkInformation">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Ping">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Primitives">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Requests">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Security">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Sockets">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebHeaderCollection">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets.Client">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics.Vectors">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ObjectModel">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.DispatchProxy">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.ILGeneration">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.Lightweight">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Extensions">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Primitives">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Reader">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.ResourceManager">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Writer">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.CompilerServices.VisualC">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Extensions">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Handles">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Numerics">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Formatters">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Json">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Primitives">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Xml">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Claims">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Algorithms">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Csp">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Encoding">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Primitives">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.X509Certificates">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Principal">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.SecureString">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding.Extensions">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.RegularExpressions">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Overlapped">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Extensions">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Parallel">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Thread">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.ThreadPool">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Timer">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ValueTuple">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.ReaderWriter">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XDocument">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlDocument">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlSerializer">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath.XDocument">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+     </Reference>
+     <Reference Include="mscorlib">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Composition">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Core">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+     </Reference>
+     <Reference Include="System">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.FileSystem">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Web">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Transactions">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Web">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Windows">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Linq">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Serialization">
+     <HintPath>E:\Unity Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualEffectGraph.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VSCode.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="PPv2URPConverters">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualStudio.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualEffectGraph.Runtime">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.HighDefinition.Runtime">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Sprite.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Searcher.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.HighDefinition.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.PlasticSCM.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Rider.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Runtime">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.EditorCoroutines.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ShaderGraph.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TerrainTools">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.TerrainTools.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Shared.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TerrainTools.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.HighDefinition.Config.Runtime">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Editor">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>D:\Genesis\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="KWS.csproj">
+      <Project>{ef549ef8-00b0-83b3-e7fb-b833e65257ed}</Project>
+      <Name>KWS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
